@@ -23,6 +23,8 @@ public class Tokenizer {
                 case '[' : token = Token.OPEN_BRACKET; break;
                 case ']' : token = Token.CLOSE_BRACKET; break;
             }
+            if (token == null)
+                continue;
             tokens.add(token);
         }
         return tokens;
