@@ -8,10 +8,6 @@ import java.io.Writer;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-      String source = "";
-      IInterpretator bf = new BrainfuckInterpretator(System.in, System.out);
-      bf.evaluate(source);
-        System.out.println((char)41);
+
     }
 }
